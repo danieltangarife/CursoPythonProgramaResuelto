@@ -3,7 +3,12 @@
 
 def calcularEdad(añoActual, añoDeNacimiento):
     edad = añoActual - añoDeNacimiento
+    return edad
 
+miEdad = calcularEdad(2021;1997)
+edadDeMiAmigo = calcularEdad(2021, 1995)
+print("Tengo " + str(miEdad) "años y mi mejor amigo tiene " + str(edadDeMiAmigo) + "años."
+      
 #Agrega una línea en la función que devuelva la variable "edad"
 
 #Luego, afuera de la función, llámala con el año actual y tu año de nacimiento
